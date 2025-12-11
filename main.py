@@ -9,6 +9,6 @@ karim = Driver("Karim", "karim@gmail.com", 1256, "Boddarhat")
 pathao.add_driver(karim)
 
 rahim.request_ride(pathao, "New Market", "car")
-rahim.show_current_ride()
 karim.reach_destination(rahim.current_ride)
-print(pathao)
+rahim.show_current_ride()
+# print(pathao)
